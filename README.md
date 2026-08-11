@@ -118,6 +118,14 @@ On-Time % = DIVIDE([Count of On-Time], [Total Patients], 0)
 | 6 | 🏨 **Department Referral** | Horizontal Bar Chart |
 ---
 
+## 📊 Dashboard Preview
+
+<p align="center">
+  <img src="Screenshots/Dashboard.png" alt="Hospital Emergency Room Dashboard" width="100%">
+</p>
+
+---
+
 ## 🔎 Chart-by-Chart Analysis (comparing across all the data)
 
 By comparing all the data side by side rather than looking at any single period in isolation, some patterns hold steady while others move around noticeably.
