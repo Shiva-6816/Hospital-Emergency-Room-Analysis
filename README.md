@@ -17,8 +17,8 @@ The dataset tracks patient visits to a Hospital Emergency Room — admission dat
 | File / Path | Description |
 | :--- | :--- |
 | `📄README.md` | Contains README.md file |
-|`🗂️Dashboard/` ↳ `📊Hospital_Emergency_Room_Dashboard.xlsx` | Raw, unprocessed source data | 
-| `🗂️Script/`↳ `📄Hospital Emergency Room Data.csv` | Single workbook containing: Power Query cleaning steps, Data Model, Pivot Report sheet, Dashboard sheet, and 3 supporting detail sheets |
+|`🗂️Dashboard/` ↳ `📊Hospital_Emergency_Room_Dashboard.xlsx` |Single workbook containing: Power Query cleaning steps, Data Model, Pivot Report sheet, Dashboard sheet, and 3 supporting detail sheets| 
+| `🗂️Script/`↳ `📄Hospital Emergency Room Data.csv` |  Raw, unprocessed source data  |
 | `images/` | Static chart exports used in this README |
 
 > The cleaned data is **not stored as a separate static table** — it lives entirely inside the Power Query connections of the workbook, so the dashboard refreshes from the query rather than a hardcoded sheet.
@@ -95,7 +95,10 @@ On-Time % = DIVIDE([Count of On-Time], [Total Patients], 0)
 Total Patients · AVG Wait Time · Satisfaction Score
 
 ### Slicers — 2 total
-Year · Month
+| # | Slicer | 
+|---|---|
+| 1 | Year slicer | 
+| 2 | Month slicer |
 
 ### Charts — 6 total
 
@@ -175,7 +178,7 @@ Cell hyperlinks sit on top of the KPI cards to simulate Power BI–style drill-t
 | Some slicer options appear grayed out | The calendar table always spans the full 2-year range, but not every date in that range has matching admission records | Expected — a grayed slicer option means "no data for this period," not a broken slicer |
 
 ---
-
+## 💡Insights & Recommendations Executive Summary
 ## 1. Executive Diagnostic Summary
 
 | Operational Area | Baseline Status | Identified Root Cause | Corrective Action |
