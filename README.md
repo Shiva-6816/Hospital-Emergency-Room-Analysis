@@ -91,26 +91,31 @@ On-Time % = DIVIDE([Count of On-Time], [Total Patients], 0)
 
 ## 📊 Dashboard Structure
 
-### KPI Cards — 3 total
-Total Patients · AVG Wait Time · Satisfaction Score
+## 🎯 KPI Cards — 3 Total
 
-### Slicers — 2 total
-| # | Slicer | 
-|---|---|
-| 1 | Year slicer | 
-| 2 | Month slicer |
+| # | KPI Card | Description |
+|---|---|---|
+| 1 | 👥 **Total Patients** | Displays the total number of patients for the selected period |
+| 2 | ⏱️ **AVG Wait Time** | Displays the average patient waiting time |
+| 3 | ⭐ **Satisfaction Score** | Displays the average patient satisfaction score |
 
-### Charts — 6 total
+## 🎛️ Slicers — 2 Total
+
+| # | Slicer | Purpose |
+|---|---|---|
+| 1 | 📅 **Year Slicer** | Filters the dashboard based on the selected year |
+| 2 | 📆 **Month Slicer** | Filters the dashboard based on the selected month |
+
+## 📈 Charts — 6 Total
 
 | # | Chart | Type |
-|---|---|---|
-| 1 | Patients Trend (Daily) | Area/line chart |
-| 2 | Patients Attended Within Time | Donut chart |
-| 3 | Patient by Gender | Donut chart |
-| 4 | Admission Status | Icon + horizontal bar |
-| 5 | Patients by Age Group | Column chart |
-| 6 | Department Referral | Horizontal bar chart |
-
+|---:|---|---|
+| 1 | 📈 **Patients Trend (Daily)** | Area / Line Chart |
+| 2 | ⏱️ **Patients Attended Within Time** | Donut Chart |
+| 3 | 👥 **Patient by Gender** | Donut Chart |
+| 4 | 🏥 **Admission Status** | Icon + Horizontal Bar Chart |
+| 5 | 👶 **Patients by Age Group** | Column Chart |
+| 6 | 🏨 **Department Referral** | Horizontal Bar Chart |
 ---
 
 ## 🔎 Chart-by-Chart Analysis (comparing across all the data)
