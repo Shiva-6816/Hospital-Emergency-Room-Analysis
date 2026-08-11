@@ -140,7 +140,7 @@ Male patients hold a small, consistent edge over Female across almost every peri
 
 Comparing totals across all the data, no single age band dominates. Every bracket lands within a tight range of each other — this ER serves a genuinely broad demographic rather than skewing toward children or the elderly. Which bracket looks "tallest" shifts around depending on the period you're looking at, but that's noise sitting on top of an essentially flat underlying distribution.
 
-![Patients by age group]("D:\EXCEL\Hospital_data\Age_Group_Analysis.png")
+[📊 View Patient Trend Analysis](Screenshots/Age_Group_Analysis.png)
 
 ### Department referral — the most concentrated chart
 
