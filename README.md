@@ -120,14 +120,13 @@ By comparing all the data side by side rather than looking at any single period 
 ### Total patients & wait time
 
 Patient volume moves up and down period to period with no clear upward or downward direction. Average wait time, on the other hand, stays remarkably stable in the mid-30-minute range almost regardless of how many patients came in — a sign that the pace of care isn't scaling proportionally with demand.
-
-![Total ER patients trend]("D:\EXCEL\Hospital_data\Patient_Trend_Analysis.png")
+[📊 View Patient Trend Analysis](Screenshots/Patient_Trend_Analysis.png)
 
 ### Patients attended within time — the biggest recurring issue
 
 This is the one pattern that never flips. Comparing across all the data, **delay consistently outnumbers on-time** — not once does on-time attendance overtake delay in any period compared. This is a structural pattern, not a one-off bad stretch.
 
-![On-time vs delay rate]("D:\EXCEL\Hospital_data\OnTime_vs_Delay_Analysis.png")
+[📊 View On-Time vs Delay Analysis](Screenshots/OnTime_vs_Delay_Analysis.png)
 
 ### Admission status (Admitted vs Not Admitted)
 
@@ -147,7 +146,7 @@ Comparing totals across all the data, no single age band dominates. Every bracke
 
 This ranking barely changes no matter which periods are compared: **None → General Practice → Orthopedics** always occupy the top three spots, together accounting for the large majority of all referrals. The remaining specialties split a small share between them, with Renal consistently the smallest category by a wide margin.
 
-![Department referral volume]("D:\EXCEL\Hospital_data\Department_Referral_Analysis.png")
+[📊 View Department Referral Analysis](Screenshots/Department_Referral_Analysis.png)
 
 ---
 
