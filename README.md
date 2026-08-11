@@ -121,7 +121,7 @@ On-Time % = DIVIDE([Count of On-Time], [Total Patients], 0)
 ## 📊 Dashboard Preview
 
 <p align="center">
-  <img src="Screenshots/Dashboard.png" alt="Hospital Emergency Room Dashboard" width="100%">
+  <img src="Screenshots/Hospital_Emergency_Room_Dashboard.png" alt="Hospital Emergency Room Dashboard" width="100%">
 </p>
 
 ---
